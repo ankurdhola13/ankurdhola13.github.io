@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="left">
+            <block class="Ankur\SimpleNews\Block\Adminhtml\News\Edit\Tabs" name="ankur_simplenews_news.edit.tabs" />
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Ankur\SimpleNews\Block\Adminhtml\News\Edit" name="ankur_simplenews_news.edit" />
+        </referenceContainer>
+    </body>
+</page>
